@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-image: url('images/purplething.png'), url('images/backgroundimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom-left-radius: 6em;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    text-align: center;
+    color: white;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+#left {
+    display: flex;
+    justify-content: flex-start;
+    width: 45em;
+    gap: 1em;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+}
+
+#right {
+    display: flex;
+    justify-content: flex-end;
+    width: 45em;
+    gap: 2em;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+}
+
+#billet {
+    color: white;
+    background: transparent;
+    border: 0.1em solid;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 3em;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+}
+
+main {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    color: white;
+}
+
+#description {
+    font-size: 1.75em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: 'Raleway', serif;
+}
+
+#placetime {
+    display: flex;
+    gap: 12em;
+    font-family: 'Raleway', serif;
+    font-size: 1.5em;
+}
+
+#time {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    align-items: center;
+    font-family: 'Raleway', serif;
+}
+
+#place {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    align-items: center;
+    font-family: 'Raleway', serif;
+}
+
+#reservation {
+    margin-top: 1em;
+    background: linear-gradient(90deg, #A1642E 5%, #FACA6C 52%, #A1642E 95%);
+    border: none;
+    color: white;
+    padding: 0.5em 1.75em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3em;
+    cursor: pointer;
+    border-radius: 3em;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+}
+
+#timeleft {
+    font-size: 1.5em;
+    font-family: 'Raleway', serif;
+    margin-top: 1em;
+}
+
+#clock {
+    margin-top: 0.25em;
+    font-size: 3em;
+    font-family: 'Raleway', serif;
+    margin-bottom: 1em;
+}
